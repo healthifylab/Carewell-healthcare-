@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carewell Healthcare | Online Doctor Consultation & Home Care</title>
+  <meta name="description" content="Carewell Healthcare provides online doctor consultations, home healthcare, lab tests and wellness services in Navi Mumbai. Call +91 88303 04637">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">Carewell <span>Healthcare</span></div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="tel:+918830304637" class="call-btn">
+      <i class="fa fa-phone"></i> +91 88303 04637
+    </a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Instant Online Doctor Consultations & Home Healthcare</h1>
+    <p>Your Wellness, Our Priority. 24/7 access to expert doctors and trained caregivers.</p>
+    <div class="hero-buttons">
+      <button onclick="scrollToSection('doctors')">Consult Now</button>
+      <a href="tel:+918830304637" class="secondary-btn">Call Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+  <div class="services-grid">
+    <div class="card"><i class="fa fa-video"></i><h3>Online Consultation</h3><p>Expert doctors via secure video calls.</p></div>
+    <div class="card"><i class="fa fa-pills"></i><h3>Medicine Delivery</h3><p>Medicines delivered to your doorstep.</p></div>
+    <div class="card"><i class="fa fa-vial"></i><h3>Home Lab Tests</h3><p>Sample collection from home.</p></div>
+    <div class="card"><i class="fa fa-user-nurse"></i><h3>Home Nursing</h3><p>Trained nurses & caregivers at home.</p></div>
+    <div class="card"><i class="fa fa-building"></i><h3>Corporate Checkups</h3><p>Health packages for companies.</p></div>
+    <div class="card"><i class="fa fa-heart"></i><h3>Wellness Packages</h3><p>Preventive health plans.</p></div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section id="doctors" class="section light">
+  <h2>Available Doctors</h2>
+  <div class="doctors-grid" id="doctorList">
+    <!-- JS will inject cards -->
+  </div>
+</section>
+
+<!-- APP PROMO -->
+<section class="app-section">
+  <h2>Carewell Healthcare App (Coming Soon)</h2>
+  <p>Book consultations & home care anytime, anywhere.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Carewell Healthcare</h2>
+  <p>
+    Carewell Healthcare is a patient-focused healthcare platform providing online doctor consultations,
+    home healthcare services, lab tests, and wellness solutions.
+  </p>
+  <p><strong>Address:</strong> Ishwar Nagar, Digha near Mukund Company, Navi Mumbai 400708</p>
+  <p><strong>Phone:</strong> +91 88303 04637</p>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section light">
+  <h2>Contact Us</h2>
+  <div class="contact-box">
+    <p><i class="fa fa-phone"></i> +91 88303 04637</p>
+    <p><i class="fa fa-location-dot"></i> Ishwar Nagar, Digha near Mukund Company, Navi Mumbai 400708</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Carewell Healthcare</p>
+  <p>Ishwar Nagar, Digha near Mukund Company, Navi Mumbai 400708</p>
+  <p>Call: +91 88303 04637</p>
+  <small>Telemedicine services as per Indian guidelines | DPDPA compliant</small>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
